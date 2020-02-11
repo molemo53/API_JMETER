@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
+  <hashTree>
+    <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion" enabled="true">
+      <stringProp name="Assertion.test_field">SizeAssertion.response_network_size</stringProp>
+      <stringProp name="SizeAssertion.size">30000</stringProp>
+      <intProp name="SizeAssertion.operator">4</intProp>
+    </SizeAssertion>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>

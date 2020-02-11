@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.2.1">
+  <hashTree>
+    <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="Regular Expression Extractor" enabled="true">
+      <stringProp name="RegexExtractor.useHeaders">false</stringProp>
+      <stringProp name="RegexExtractor.refname">RefValue</stringProp>
+      <stringProp name="RegexExtractor.regex">&lt;a href=&quot;(.*?)&quot;&gt;</stringProp>
+      <stringProp name="RegexExtractor.template">$1$</stringProp>
+      <stringProp name="RegexExtractor.default"></stringProp>
+      <stringProp name="RegexExtractor.match_number">4</stringProp>
+    </RegexExtractor>
+    <hashTree/>
+  </hashTree>
+</jmeterTestPlan>
